@@ -11,12 +11,13 @@ import Foundation
       case badRequest               //Status code 400
       case notFound                //Status code 404
       case unAuthorized           //Status code 401
+      case limiteReached         //Status code 429
       case internalServerError   //Status code 500
   }
 
 struct Constants {
     //The API's base URL
-    static let baseURL = "hhttps://www.breakingbadapi.com/api/"
+    static let baseURL = "https://www.breakingbadapi.com/api"
     
     //The parameters (Queries) that we're gonna use
     struct Parameters {

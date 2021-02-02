@@ -63,6 +63,10 @@ struct NetworkPublisher {
                         case 404:
                             //  observer.onError(ApiError.notFound)
                             print("notFound")
+                        case 429:
+//                            observer.onError(ApiError.limiteReached)
+                            print("limite Reached")
+                            
                         case 500:
                             // observer.onError(ApiError.internalServerError)
                             print("internalServerError")
