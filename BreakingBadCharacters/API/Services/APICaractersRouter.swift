@@ -23,7 +23,6 @@ enum APICaractersRouter: URLRequestConvertible, BaseRequestProtocol {
         urlRequest.httpMethod = method.rawValue
         
         // Common Headers
-        urlRequest.setValue(Constants.ContentType.json.rawValue, forHTTPHeaderField: Constants.HttpHeaderField.acceptType.rawValue)
         urlRequest.setValue(Constants.ContentType.json.rawValue, forHTTPHeaderField: Constants.HttpHeaderField.contentType.rawValue)
         
         //Encoding

@@ -9,58 +9,26 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
-   @StateObject var viewModel = CharactersViewModel()
-    
-    private var bindings = Set<AnyCancellable>()
-    
-    @State var items: [Character]  = [Character]()
+    @ObservedObject var viewModel = CharactersViewModel()
+    //    @State private var shouldAnimate = false
     
     var body: some View {
         NavigationView {
             List {
-                Section(header:
-                            Text("Characters")
-                            .foregroundColor(.black))
+                Section(header: Text("Characters") .HeaderStyle())
                 {
-                    ForEach(viewModel.characters, content: CharacterCell.init)
+                    ForEach(viewModel.characters){ character in
+                        CharacterCell(character: character)
+                    }
                 }
             }
             .onAppear(perform: viewModel.getCharacters)
             .listStyle(GroupedListStyle())
             .navigationTitle("Breaking Bad")
         }
-        Spacer()
         
+        Spacer()
     }
-    
-    private func setUpBindings() {
-    }
-    
-    
-//    eventFitersVM.$items
-//        .receive(on: RunLoop.main)
-//        .sink(receiveValue: FilterviewModelValueHandler)
-//        .store(in: &bindings)
-    
-//    let stateValueHandler: (ListViewModelState) -> Void = { [weak self] state in
-//        switch state {
-//        case .loading:
-//            print("starting loading indicator")
-//            hideActivityIndicatory()
-//        case .finishedLoading:
-//            print("stopping loading indicator")
-//            hideActivityIndicatory()
-//        case .error(let error):
-//            print("stopping loading indicator && show error ")
-//            hideActivityIndicatory()
-//            //                self?.showError(error)
-//        }
-//    }
-//
-//    eventsVM.$state
-//        .receive(on: RunLoop.main)
-//        .sink(receiveValue: stateValueHandler)
-//        .store(in: &bindings)
     
 }
 

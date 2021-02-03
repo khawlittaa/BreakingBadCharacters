@@ -17,49 +17,41 @@ struct CharacterView: View {
                     .aspectRatio(contentMode: .fill)
                     .frame(width:200, height:300)
 
-                    Text(character.name)
-                        .fontWeight(.regular)
+                Text(character.name)
+                    .mainStyle()
                    
                 HStack{
                     Text("Status: ")
-                        .fontWeight(.regular)
-                        .foregroundColor(.black)
+                        .labelStyle()
                     
                     Text(character.status)
-                        .fontWeight(.medium)
-                        .foregroundColor(.gray)
+                        .secondaryStyle()
                 }
                 .padding(.all,10)
                 
                 HStack{
                     Text("Main Occupation : ")
-                        .fontWeight(.regular)
-                        .foregroundColor(.black)
+                        .labelStyle()
                     
                     Text(character.occupation[0])
-                        .fontWeight(.medium)
-                        .foregroundColor(.gray)
+                        .secondaryStyle() 
                 }
                 
                 HStack{
                     Text("Birthday: ")
-                        .fontWeight(.regular)
-                        .foregroundColor(.black)
+                        .labelStyle()
                     
                     Text(character.birthday)
-                        .fontWeight(.medium)
-                        .foregroundColor(.gray)
+                        .secondaryStyle()
                 }
                 .padding(.all,10)
                 
                 HStack{
                     Text("Portrayed By: ")
-                        .fontWeight(.regular)
-                        .foregroundColor(.black)
+                        .labelStyle()
                     
                     Text(character.portrayed)
-                        .fontWeight(.medium)
-                        .foregroundColor(.gray)
+                        .secondaryStyle() 
                 }
                 .padding(.all,10)
                 
@@ -75,6 +67,6 @@ struct CharacterView: View {
 
 struct CharacterView_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterView(character: Character.example)
+        CharacterView(character: example)
     }
 }

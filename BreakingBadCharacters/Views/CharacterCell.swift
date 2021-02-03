@@ -22,12 +22,11 @@ struct CharacterCell: View {
                     
                     VStack{
                         Text(character.name)
-                            .fontWeight(.bold)
-                            .foregroundColor(.black)
+                            .mainStyle()
                         
                         Text(character.nickname)
-                            .fontWeight(.medium)
-                            .foregroundColor(.green)
+                            .accentStyle()
+                        
                     }.padding(.all,10)
                 
                 }
@@ -41,6 +40,6 @@ struct CharacterCell: View {
 
 struct CharacterCell_Previews: PreviewProvider {
     static var previews: some View {
-        CharacterCell(character: Character.example)
+        CharacterCell(character: example)
     }
 }
