@@ -199,10 +199,163 @@
             filePath = "BreakingBadCharacters/Models/Character.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "Character"
             landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7293DA36-937B-484E-ACFB-FF6880487774"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CharactersViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 8bcd8c70aaa0e7a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of BreakingBadCharacters.CharactersViewModel.characters : Swift.Array&lt;BreakingBadCharacters.Character&gt;"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 69e7365b0d9fef95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.characters.getter : Swift.Array&lt;BreakingBadCharacters.Character&gt;"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 2c9fea300d198b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.characters.setter : Swift.Array&lt;BreakingBadCharacters.Character&gt;"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 8a1e4ec36d2466c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.characters.modify : Swift.Array&lt;BreakingBadCharacters.Character&gt;"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 7bde72e1abea6fa1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.characters.modify : Swift.Array&lt;BreakingBadCharacters.Character&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 289675f3d7f94680"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.$characters.getter : Combine.Published&lt;Swift.Array&lt;BreakingBadCharacters.Character&gt;&gt;.Publisher"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - b060d0a6fc526e8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.$characters.setter : Combine.Published&lt;Swift.Array&lt;BreakingBadCharacters.Character&gt;&gt;.Publisher"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - dd25eacbec6c0fca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.$characters.modify : Combine.Published&lt;Swift.Array&lt;BreakingBadCharacters.Character&gt;&gt;.Publisher"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "7293DA36-937B-484E-ACFB-FF6880487774 - 8f39045692c25173"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BreakingBadCharacters.CharactersViewModel.$characters.modify : Combine.Published&lt;Swift.Array&lt;BreakingBadCharacters.Character&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "BreakingBadCharacters"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khaoulahafsia/Documents/BreakingBadCharacters/BreakingBadCharacters/ViewModels/CharactersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -37,6 +37,7 @@ final class CharactersViewModel: ObservableObject {
             receiveValue: { data in
                 self.characters = data
                 self.errorCode = ""
+                self.isLoading = false
                 self.showAlert = false
             })
     }
